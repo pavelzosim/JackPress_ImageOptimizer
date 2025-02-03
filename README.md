@@ -25,12 +25,29 @@ A professional GUI tool for batch image optimization and resizing with parallel 
   - Size preservation options
   - Output directory auto-creation
 
-## Installation 🛠️
+
+## System Requirements 💻
+
+**Supported OS:**
+- Windows 7/8/10/11 (x86/x64)
+  - Both 32-bit and 64-bit systems supported
+  - Requires 32-bit versions of oxipng/pngquant for x86 systems
+
+**Minimum Hardware:**
+- Processor: 1 GHz dual-core CPU
+- RAM: 2 GB (4 GB recommended)
+- Disk Space: 100 MB free space
+
+**Dependencies:**
+- Microsoft Visual C++ Redistributable 2015+
+- Python 3.8+ (32-bit or 64-bit)
 
 ### Requirements
 - Python 3.8+
 - PyQt5
 - Pillow
+
+
 
 ```bash
 
