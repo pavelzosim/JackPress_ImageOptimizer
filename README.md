@@ -1,4 +1,5 @@
 # JackPress Image Optimizer
+![poster_jackal](https://github.com/user-attachments/assets/92129921-11f1-4e66-b376-0d9e65d260df)
 
 ![Python](https://img.shields.io/badge/python-3.8%2B-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
@@ -48,42 +49,34 @@ oxipng.exe
 pngquant.exe
 
 Usage 🖥️
-Select Input Folder
+1. Select Input Folder
 Choose directory with images to process
+2. Configure Settings
 
-Configure Settings
-UI Preview
 
-Select file formats (PNG/JPG)
+![image](https://github.com/user-attachments/assets/8d982866-e248-490c-8baa-7d42465b0b9b)
 
-Set compression level (1-100)
 
-Choose resizing options
-
-Configure alpha channel handling
-
-Start Processing
+3. Select file formats (PNG/JPG)
+4. Set compression level (1-100)
+5. Choose resizing options
+6. Configure alpha channel handling
+7. Start Processing
 Optimized images save to jackpressed/ subdirectory
 
-Configuration Options ⚙️
-Parameter	Description	Default
-Compression Level	Quality vs file size balance	80
-Target Width	Resize to nearest power-of-2	1024
-Preserve Alpha	Keep transparency channel	Off
-Keep Original Size	Disable resizing	On
-PNG Compression Tool	Choose between oxipng/pngquant	pngquant
-
 Technical Highlights 🧠
+
+```bash
 # Smart quality remapping for JPEG
 def _calculate_quality(compression_level: int) -> int:
     normalized = (compression_level - 1) / 99
     return MIN_QUALITY + int(normalized**2 * (MAX_QUALITY - MIN_QUALITY))
-
+```
 License 📄
 MIT License - See LICENSE for details.
 
 Developed with ❤️ by Pavel Zosim
-Project Website | Donate
+https://www.pavelzosim.com
 
 
 
