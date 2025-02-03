@@ -1,5 +1,5 @@
 # JackPress Image Optimizer
-![poster_jackal](https://github.com/user-attachments/assets/92129921-11f1-4e66-b376-0d9e65d260df)
+![poster_jackal](https://github.com/user-attachments/assets/26ee2b7b-99a7-4e12-a5b2-222fd87a4e5f)
 
 ![Python](https://img.shields.io/badge/python-3.8%2B-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
