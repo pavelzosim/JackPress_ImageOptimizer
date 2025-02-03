@@ -83,26 +83,8 @@ License 📄
 MIT License - See LICENSE for details.
 
 Developed with ❤️ by Pavel Zosim
-
 Project Website | Donate
 
-Key elements included:
-1. Badges for quick project status
-2. Clear feature highlights with emojis
-3. Detailed installation instructions
-4. Visual workflow explanation
-5. Configuration reference table
-6. Code snippet showing key algorithm
-7. License and contact info
-8. Responsive Markdown formatting
-
-For complete README:
-1. Add actual screenshots to `docs/` folder
-2. Update donation links
-3. Include system requirements section
-4. Add troubleshooting guide
-5. Include contributor guidelines
-6. Add CI/CD status badges when implemented
 
 
 
